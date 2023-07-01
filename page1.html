@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+<p>
+    <a  href="page2.html">Ссылка на вторую страницу</a>
+</p>
+<p>
+    <a  href="page2.html" target="_blank">Ссылка на вторую страницу с открытием отдельной вкладки</a>
+</p>
+<form action="">
+    <p>
+        <label class="lead" for="field1">Простое текстовое поле</label><br>
+        <input class="form-control-lg" id="field1" type="text">
+    </p>
+    <p>
+        <label class="lead" for="field2">Чек-бокс</label>
+        <input class="form-check-input" id="field2" type="checkbox">
+    </p>
+    <p>
+        <label class="lead" for="field3">Пароль</label>
+        <input class="form-control form-control-sm" id="field3" type="password"><br>
+        <!--<br> - штука, чтобы сразу перейти на другую строку-->
+    </p>
+    <input class="btn btn-dark" id="field4" type="button" value="Кнопка"><br><br>
+    <label for="Multiline_input_field">Многострочная текстовая форма</label><br>
+    <textarea class="form-control" placeholder="Напишите здесь" id="Multiline_input_field"></textarea>
+</form>
+<nav class="navbar fixed-top bg-body-tertiary">
+    <p>
+        <a class="navbar-brand" href="page1.html">Page 1</a>
+        <a class="navbar-brand" href="page2.html">Page 2</a>
+    </p>
+</nav>
+</body>
+</html>
